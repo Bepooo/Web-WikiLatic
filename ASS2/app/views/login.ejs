@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
+
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link href="/stylesheets/login.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+<form class="form-signin" action="/login" method="post">
+    <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+    <label>
+        <input type="text" name="username" class="form-control" placeholder="Username" required autofocus>
+    </label>
+    <label>
+        <input type="password" name="password" class="form-control" placeholder="Password" required>
+    </label>
+    <div class="checkbox mb-3">
+        <label>
+            <a class="btn btn-outline-primary" href="/">Home Page</a>
+            <a class="btn btn-outline-primary" href="/register">No Account?</a>
+        </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block bg-info" type="submit" value="Login">Sign in</button>
+
+
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                <!--<img class="mb-2" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">-->
+                <small class="d-block mb-3 text-muted">&copy; 2018_Semester1_COMP5347 Web Application Development </small>
+            </div>
+        </div>
+    </footer>
+
+</form>
+</body>
+</html>

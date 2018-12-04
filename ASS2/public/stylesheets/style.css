@@ -1,0 +1,69 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.topbutton{
+  float: right;
+}
+
+.notice{
+  margin: auto;
+}
+tr{
+  margin: auto;
+  width: 400px;
+}
+th{
+  margin: auto;
+  width: 400px;
+}
+td{
+  margin: auto;
+  width: 400px;
+}
+.overallanalyticspoint{
+  padding-top: 100px;
+  margin-top: -100px;
+}
+.individualpoint{
+  padding-top: 100px;
+  margin-top: -100px;
+}
+.authorpoint{
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.image_size{
+  height: 200px;
+}
